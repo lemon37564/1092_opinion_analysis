@@ -1,0 +1,161 @@
+class00_f1 = 0.77777773
+class00_precision = 0.8235294
+class00_recall = 0.7368421
+class00_threshold = 0.1356784
+
+class01_f1 = 1.0
+class01_precision = 1.0
+class01_recall = 1.0
+class01_threshold = 0.22110553
+
+class02_f1 = 1.0
+class02_precision = 1.0
+class02_recall = 1.0
+class02_threshold = 0.6130653
+
+class03_f1 = 0.9304029
+class03_precision = 0.91366905
+class03_recall = 0.9477612
+class03_threshold = 0.26130652
+
+class04_f1 = 0.9333333
+class04_precision = 0.93333334
+class04_recall = 0.93333334
+class04_threshold = 0.31658292
+
+class05_f1 = 0.82352936
+class05_precision = 0.875
+class05_recall = 0.7777778
+class05_threshold = 0.6281407
+
+class06_f1 = 1.0
+class06_precision = 1.0
+class06_recall = 1.0
+class06_threshold = 0.1356784
+
+class07_f1 = 0.2222222
+class07_precision = 0.14285715
+class07_recall = 0.5
+class07_threshold = 0.28643215
+
+class08_f1 = 0.7692307
+class08_precision = 1.0
+class08_recall = 0.625
+class08_threshold = 0.24623115
+
+class09_f1 = 0.95049506
+class09_precision = 0.9230769
+class09_recall = 0.97959185
+class09_threshold = 0.1758794
+
+class10_f1 = 0.9803921
+class10_precision = 1.0
+class10_recall = 0.96153843
+class10_threshold = 0.18090452
+
+class11_f1 = 0.98305076
+class11_precision = 0.96666664
+class11_recall = 1.0
+class11_threshold = 0.050251257
+
+class12_f1 = 1.0
+class12_precision = 1.0
+class12_recall = 1.0
+class12_threshold = 0.06532663
+
+class13_f1 = 0.9056604
+class13_precision = 0.82758623
+class13_recall = 1.0
+class13_threshold = 0.13065326
+
+class14_f1 = 0.9
+class14_precision = 0.8181818
+class14_recall = 1.0
+class14_threshold = 0.030150754
+
+class15_f1 = 1.0
+class15_precision = 1.0
+class15_recall = 1.0
+class15_threshold = 0.13065326
+
+class16_f1 = 0.87499994
+class16_precision = 0.8235294
+class16_recall = 0.93333334
+class16_threshold = 0.2763819
+
+class17_f1 = 1.0
+class17_precision = 1.0
+class17_recall = 1.0
+class17_threshold = 0.8442211
+
+class18_f1 = 0.74999994
+class18_precision = 1.0
+class18_recall = 0.6
+class18_threshold = 0.03517588
+
+class19_f1 = 0.9090908
+class19_precision = 0.96153843
+class19_recall = 0.86206895
+class19_threshold = 0.04522613
+
+class20_f1 = 0.96296287
+class20_precision = 1.0
+class20_recall = 0.9285714
+class20_threshold = 0.030150754
+
+class21_f1 = 1.0
+class21_precision = 1.0
+class21_recall = 1.0
+class21_threshold = 0.030150754
+
+class22_f1 = 1.0
+class22_precision = 1.0
+class22_recall = 1.0
+class22_threshold = 0.06532663
+
+class23_f1 = 0.9615384
+class23_precision = 1.0
+class23_recall = 0.9259259
+class23_threshold = 0.06532663
+
+class24_f1 = 1.0
+class24_precision = 1.0
+class24_recall = 1.0
+class24_threshold = 0.06030151
+
+class25_f1 = 0.9642856
+class25_precision = 1.0
+class25_recall = 0.9310345
+class25_threshold = 0.1356784
+
+class26_f1 = 0.96551716
+class26_precision = 0.93333334
+class26_recall = 1.0
+class26_threshold = 0.030150754
+
+class27_f1 = 0.8717948
+class27_precision = 0.9444444
+class27_recall = 0.8095238
+class27_threshold = 0.49748743
+
+class28_f1 = 0.7826086
+class28_precision = 0.8
+class28_recall = 0.7659575
+class28_threshold = 0.4321608
+
+class29_f1 = 0.90196073
+class29_precision = 0.88461536
+class29_recall = 0.92
+class29_threshold = 0.03517588
+
+class30_f1 = 0.9523809
+class30_precision = 0.90909094
+class30_recall = 1.0
+class30_threshold = 0.7085427
+
+class_intent_f1 = 0.9202989
+class_precision = 0.92375
+class_recall = 0.91687346
+class_threshold_ = 0.4120603
+loss = 1.2135588
+global_step = 587
