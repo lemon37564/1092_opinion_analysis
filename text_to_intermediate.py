@@ -2,7 +2,8 @@ import csv
 import re
 import string
 names={
-    "Lydia Huang","吳永璿","李維哲","庭柔","林冠宇Kenlin","林潔禧","Kaladin Tseng","杰"
+    "Lydia Huang","吳永璿","李維哲","庭柔","林冠宇Kenlin","林潔禧","Kaladin Tseng","杰",
+    "宇晨","陳宣佑™","1-33朱易頡","(Enderless)Ender Hsu"
 }
 for i in range(1 ,9):
     try:
@@ -48,6 +49,9 @@ for i in range(1 ,9):
                                 holder=holder[0]+"OO"
                             context=line[(6+len(n)):]
                             break
+                    for n in names:
+                        if context.find(n)!=-1:
+                            context=context.replace(n,n[0]+"OO")
                 tsv_writer.writerow(['0', holder,'0','0',date+time,context])    
                    
                 
