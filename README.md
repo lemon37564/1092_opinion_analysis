@@ -7,4 +7,5 @@
 下載預訓練模型https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip  
 放在bert_wwm  
 準備好訓練開發及測試資料放在data/data-wiki  
-執行run_mulit.ipynb即可看結果
+執行run_mulit.ipynb即可看結果  
+text_to_intermediate可以把line的紀錄轉成一個tsv檔，方便各位做標籤
