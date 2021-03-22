@@ -1,5 +1,6 @@
 # 1092_opinion_analysis
 1092海洋大學專題——意見分析  
+安裝說明:  
 在google drive建立一個資料夾  
 /content/gdrive/MyDrive/Colab_Notebooks/bert_mulit_label_chinese-automation  
 並將1092_opinion_analysis底下所有檔案上傳到該資料夾  
