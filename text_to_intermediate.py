@@ -2,8 +2,8 @@ import csv
 import re
 import string
 names={
-    "Lydia Huang","吳永璿","李維哲","庭柔","林冠宇Kenlin","林潔禧","Kaladin Tseng","杰",
-    "宇晨","陳宣佑™","1-33朱易頡","(Enderless)Ender Hsu"
+    "Lydia Huang","吳永璿","李維哲","庭柔","林冠宇Kenlin","林潔禧","Kaladin Tseng","杰",#dia8
+    "宇晨","陳宣佑™","1-33朱易頡","(Enderless)Ender Hsu"#dia7
 }
 for i in range(1 ,9):
     try:
