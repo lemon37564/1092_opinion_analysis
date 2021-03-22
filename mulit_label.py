@@ -936,7 +936,8 @@ def main():
                 intent_compare = 'O' if pre_intent == label_intent else 'X'
                 frame_O_X = 'O' if pre_intent == label_intent else 'X'
                 output_line = "\t".join(
-                    [item["intent_predicted"], label_intent, pre_intent, sentence]) + "\n"
+                    [intent_compare,frame_O_X, label_intent, pre_intent, sentence]) + "\n"
+                     
                 writer.write(output_line)
                 num_written_lines += 1
             assert num_written_lines == num_actual_predict_examples
