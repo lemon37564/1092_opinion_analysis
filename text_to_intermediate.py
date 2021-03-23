@@ -34,9 +34,11 @@ for i in range(1 ,9):
                     continue
                 
                 if  len(line)>=5 and line[2]==':':
-                    time=line[0:4]
+                    time=line[0:5]
+                    count=0
                     for n in names:
                         flag=0
+                        count+=1
                         if len(n)==1 and line[6]==n[0]:
                             flag=1
                         elif len(n)==2 and line[6]==n[0] and line[7]==n[1]:
@@ -46,12 +48,14 @@ for i in range(1 ,9):
                         if flag==1:
                             holder=n
                             if len(n)>=2:
-                                holder=holder[0]+"OO"
+                                holder=holder[0]+"__"+str(count)
                             context=line[(6+len(n)):]
                             break
+                    count=0
                     for n in names:
+                        count+=1
                         if context.find(n)!=-1:
-                            context=context.replace(n,n[0]+"OO")
+                            context=context.replace(n,n[0]+"_"+str(count))
                 tsv_writer.writerow(['0', holder,'0','0',date+time,context])    
                    
                 
