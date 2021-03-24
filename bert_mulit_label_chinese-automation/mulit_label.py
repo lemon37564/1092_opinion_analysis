@@ -36,7 +36,7 @@ from tensorflow.python.distribute import distribution_strategy_context
 
 import tf_metrics
 
-model_tag = "wiki"
+model_tag = "detection"
 data_dir = f'data/data-{model_tag}/'
 bert_config_file = 'bert_wwm/bert_config.json'
 task_name = "customized"
@@ -51,11 +51,11 @@ use_one_hot_embeddings = False
 do_train = True
 do_eval = True
 do_predict = True
-train_batch_size = 32
-eval_batch_size = 32
-predict_batch_size = 32
+train_batch_size = 16
+eval_batch_size = 16
+predict_batch_size = 16
 learning_rate = 5e-5
-num_train_epochs = 3
+num_train_epochs = 5
 warmup_proportion = 0.1
 save_checkpoints_steps = 100
 iterations_per_loop = 1000
@@ -65,7 +65,7 @@ num_tpu_cores = 8
 crf_loss_method=True
 do_export = False
 export_dir = None
-dataset = ["train.tsv", "train.tsv", "test.tsv"]
+dataset = ["dia8detection_train.tsv", "dia8detection_train.tsv", "dia8detection_test.tsv"]
 
 
 ####
