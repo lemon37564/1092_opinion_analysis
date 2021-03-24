@@ -1,7 +1,7 @@
--準備dia1.txt~dia9.txt  
+-準備dia1.txt...dia9.txt  
 -執行text_to_label_detection.py，產生label檔  
 -對label檔標記  
 -執行label_to_detection.py，產生分類器使用的tsv檔  
 -執行分類器  
--將每次分類器的結果test_results.tsv標上數字，變成test_results_1.tsv~test_results_9.tsv  
+-將每次分類器的結果test_results.tsv標上數字，變成test_results_1.tsv...test_results_9.tsv  
 -執行test_result_to_time_or_location_label.py，將資料分成時間和地點資料集
