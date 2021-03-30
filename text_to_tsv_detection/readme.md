@@ -1,4 +1,4 @@
--準備dia1.txt~dia9.txt  
+-準備dia1.txt~dia9.txt   
 -在聊天紀錄中，每一段討論用-start, -end區分(ex 10:34 宇O -start...11:34 宇O -end)  
 -執行text_to_label_detection.py，產生label檔  
 -對label檔標記  
