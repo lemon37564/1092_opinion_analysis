@@ -1,8 +1,8 @@
 -準備dia1.txt~dia9.txt  
--在聊天紀錄中，每一段討論用-start, -end區分(ex 10:34 宇O -start...11:34 宇O -end)
+-在聊天紀錄中，每一段討論用-start, -end區分(ex 10:34 宇O -start...11:34 宇O -end)  
 -執行text_to_label_detection.py，產生label檔  
 -對label檔標記  
 -執行label_to_detection.py，產生分類器使用的tsv檔  
 -執行分類器  
 -將每次分類器的結果test_results.tsv標上數字，變成test_results_1.tsv~test_results_9.tsv  
--執行test_result_to_time_or_location_label.py，將資料分成時間和地點資料集
+-執行test_result_to_time_or_location_label.py，將資料分成時間和地點資料集  
