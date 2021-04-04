@@ -65,7 +65,7 @@ num_tpu_cores = 8
 crf_loss_method=True
 do_export = False
 export_dir = None
-dataset = ["dia8detection_train.tsv", "dia8detection_train.tsv", "dia8detection_test.tsv"]
+dataset = ["train.tsv", "train.tsv", "test.tsv"]
 
 
 ####
