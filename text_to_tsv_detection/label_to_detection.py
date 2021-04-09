@@ -16,8 +16,10 @@ for i in range(0 ,10):
                         tsv_writer.writerow(['['+"other"+']', row[3]])
                     elif row[0]=='1':
                         tsv_writer.writerow(['['+"time"+']', row[3]])
-                    else:
+                    elif row[0]=='2':
                         tsv_writer.writerow(['['+"location"+']', row[3]])
+                    elif row[0]=='3':
+                        tsv_writer.writerow(['['+"time_and_location"+']', row[3]])
 
                     
                         

@@ -41,7 +41,7 @@ for i in range(0 ,10):
             if(line.find("-start")!=-1):
                 out_file=open(".\label_detection\dia"+str(i)+'_'+str(subNum)+'_label_detection.tsv', 'wt',encoding="utf-8")
                 tsv_writer = csv.writer(out_file,delimiter='\t', lineterminator='\n' )
-                tsv_writer.writerow(['label(0-irrelevant, 1-time, 2-location)', 'holder','date','context'])
+                tsv_writer.writerow(['label(0-irrelevant, 1-time, 2-location,3-both)', 'holder','date','context'])
                 start_flag=1
                 continue
             elif(line.find("-end")!=-1):
